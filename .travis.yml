@@ -1,0 +1,61 @@
+sudo: required
+dist: trusty
+language: ruby
+
+before_install:
+before_install:
+- gem install asciidoctor -v 1.5.2
+- gem install tilt
+- sudo pip install git+https://github.com/gitenberg-dev/gitberg
+- sudo pip install pillow
+- sudo pip install cssutils
+- sudo pip install docutils
+- sudo pip install roman
+- sudo pip install git+https://github.com/gitenberg-dev/pg-epubmaker
+script:
+- VERSION=`ruby -e "require 'yaml'; meta = YAML.load_file('metadata.yaml'); puts meta['_version'];"`
+- git clone https://github.com/gitenberg-dev/asciidoctor-htmlbook.git
+- sudo pip install -r asciidoctor-htmlbook/gitberg-machine/requirements.txt
+
+- /usr/bin/python -c "from gitenberg import travis; travis.build_epub()"
+- ebook-convert book.epub book.mobi
+- xvfb-run ebook-convert book.epub book.pdf
+branches:
+  only:
+  - master
+notifications:
+  webhooks:
+    urls:
+      - https://unglue.it/api/travisci/webhook
+    on_success: always
+    on_failure: never
+    on_start: never
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: jViv+7BMCAWDzMHKST4uOqjaSzK8Z+luIAM6/UIW2c6uzMqTLXbl9ycbaxG/RFGjreOJmbfVJv5OCFocbvA4zL4MGy+PtjqyKJv0ThgPlCAPsv6CURXUS0ib3Pbf88O5QQ1JaZI4X4um46aaNO70MazftHwHxhKw5wnygX+Zo19oUZ62tUS/lynTRf63nltgCc298soScRXab7xwxS6pO8z9cdMdx/66be7o53njsqKxlncQ3/pa+FrGwd6CvPc+Jo/HN3c03F0Wh8fv9nc/5UQb4t4+x7YHh2aDTvaXiM0GmNU0g+B+Y/km9EdIuvZ3s6K4i6Z7kroVZ54Q4asoNRQE9qHKA3FzcduxRsexveasmuFKIB9AIp7fN6X5QDYBTUGPex1SlMP7fi+6xw2SvZUjBMdJDajaxqrzpa/GfmrSLNUHChN0QPq3nQvhzzm25UTzRNCheJyJliCtfzao3Bn2SXwUpQz999QgZRISzFONkHcEFrHQWWopiirX1LeOKNcxoET0jT2/AucaJHS90jpz+3YTM3oXlQj2nidW8SUOj2/l/+WXqWIarSlg2mUN9hVjnzbeaWOHmjqzmdTa16+1AjpAfNEVA1kQrSCfjkJSnLoft9wFNoPqRExIQwepk8sDgdQcSdh+BSSUSFYWrwOEQaPwcmrO67VzHQjDQCc=
+  file:
+    - book.epub
+    - book.mobi
+    - book.pdf
+  "on":
+    repo: GITenberg/Fundamental-Principles-of-the-Metaphysic-of-Morals_5682
+addons:
+  apt:
+    packages:
+    - xsltproc
+    - xvfb
+    - calibre
+    - python-pip
+    - git
+    - python-dev
+    - libjpeg-dev
+    - libpng-dev
+    - libfreetype6
+    - libfreetype6-dev
+    - zlib1g-dev
+    - python-lxml
+    - libxml2-dev
+    - libxslt1-dev
+    - tidy
