@@ -29,9 +29,8 @@ Title: Fundamental Principles of the Metaphysic of Morals
 Author: Immanuel Kant
 
 Release Date: May, 2004  [EBook #5682]
-[Yes, we are more than one year ahead of schedule]
-[This file was first posted on August 7, 2002]
-[Date last updated: November 5, 2005]
+This file was first posted on August 7, 2002
+Last Updated: September 30, 2016
 
 Edition: 10
 
@@ -72,7 +71,7 @@ All rational knowledge is either material or formal: the former
 considers some object, the latter is concerned only with the form of
 the understanding and of the reason itself, and with the universal
 laws of thought in general without distinction of its objects.
-Formal philosophy is called logic. Material philosophy, however, has
+Formal philosophy is called logic. Material philosophy, however, which has
 to do with determinate objects and the laws to which they are subject,
 is again twofold; for these laws are either laws of nature or of
 freedom. The science of the former is physics, that of the latter,
@@ -93,7 +92,7 @@ however, must also consider the conditions under which what ought to
 happen frequently does not.
 
 We may call all philosophy empirical, so far as it is based on
-grounds of experience: on the other band, that which delivers its
+grounds of experience: on the other hand, that which delivers its
 doctrines from a priori principles alone we may call pure
 philosophy. When the latter is merely formal it is logic; if it is
 restricted to definite objects of the understanding it is metaphysic.
@@ -176,7 +175,7 @@ but it must also be done for the sake of the law, otherwise that
 conformity is only very contingent and uncertain; since a principle
 which is not moral, although it may now and then produce actions
 conformable to the law, will also often produce actions which
-contradict it. Now it is only a pure philosophy that we can look for
+contradict it. Now it is only in a pure philosophy that we can look for
 the moral law in its purity and genuineness (and, in a practical
 matter, this is of the utmost consequence): we must, therefore,
 begin with pure philosophy (metaphysic), and without it there cannot
@@ -223,14 +222,14 @@ whether they are a priori, or only a posteriori.
 Intending to publish hereafter a metaphysic of morals, I issue in
 the first instance these fundamental principles. Indeed there is
 properly no other foundation for it than the critical examination of a
-pure practical Reason; just as that of metaphysics is the critical
+pure practical reason; just as that of metaphysics is the critical
 examination of the pure speculative reason, already published. But
 in the first place the former is not so absolutely necessary as the
 latter, because in moral concerns human reason can easily be brought
 to a high degree of correctness and completeness, even in the
 commonest understanding, while on the contrary in its theoretic but
 pure use it is wholly dialectical; and in the second place if the
-critique of a pure practical reason is to be complete, it must be
+critique of a pure practical Reason is to be complete, it must be
 possible at the same time to show its identity with the speculative
 reason in a common principle, for it can ultimately be only one and
 the same reason which has to be distinguished merely in its
@@ -470,10 +469,10 @@ nor from direct inclination, but merely with a selfish view.
 
 On the other hand, it is a duty to maintain one's life; and, in
 addition, everyone has also a direct inclination to do so. But on this
-account the of anxious care which most men take for it has no
+account the often anxious care which most men take for it has no
 intrinsic worth, and their maxim has no moral import. They preserve
 their life as duty requires, no doubt, but not because duty
-requires. On the other band, if adversity and hopeless sorrow have
+requires. On the other hand, if adversity and hopeless sorrow have
 completely taken away the relish for life; if the unfortunate one,
 strong in mind, indignant at his fate rather than desponding or
 dejected, wishes for death, and yet preserves his life without
@@ -561,14 +560,14 @@ worth lie, if it is not to consist in the will and in reference to its
 expected effect? It cannot lie anywhere but in the principle of the
 will without regard to the ends which can be attained by the action.
 For the will stands between its a priori principle, which is formal,
-and its a posteriori spring, which is material, as between two
-roads, and as it must be determined by something, it that it must be
-determined by the formal principle of volition when an action is
-done from duty, in which case every material principle has been
-withdrawn from it.
+and its a posteriori spring, which is material, as between two roads,
+and as it must be determined by something, it follows that it must be
+determined by the formal principle of volition when an action is done
+from duty, in which case every material principle has been withdrawn
+from it.
 
 The third proposition, which is a consequence of the two
-preceding, I would express thus Duty is the necessity of acting from
+preceding, I would express thus: Duty is the necessity of acting from
 respect for the law. I may have inclination for an object as the
 effect of my proposed action, but I cannot have respect for it, just
 for this reason, that it is an effect and not an energy of will.
@@ -661,7 +660,7 @@ principle here suggested. Let the question be, for example: May I when
 in distress make a promise with the intention not to keep it? I
 readily distinguish here between the two significations which the
 question may have: Whether it is prudent, or whether it is right, to
-make a false promise? The former may undoubtedly of be the case. I see
+make a false promise? The former may undoubtedly often be the case. I see
 clearly indeed that it is not enough to extricate myself from a
 present difficulty by means of this subterfuge, but it must be well
 considered whether there may not hereafter spring from this lie much
@@ -3062,7 +3061,7 @@ that we cannot solve.
 
 Here now is the extreme limit of all moral inquiry, and it is of
 great importance to determine it even on this account, in order that
-reason may not on the one band, to the prejudice of morals, seek about
+reason may not on the one hand, to the prejudice of morals, seek about
 in the world of sense for the supreme motive and an interest
 comprehensible but empirical; and on the other hand, that it may not
 impotently flap its wings without being able to move in the (for it)

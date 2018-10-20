@@ -1,5 +1,5 @@
 _repo: Fundamental-Principles-of-the-Metaphysic-of-Morals_5682
-_version: 0.2.0
+_version: 0.2.1
 contributor:
   translator:
     agent_name: Abbott, Thomas Kingsmill
@@ -38,5 +38,6 @@ subjects:
 - !lcc 'B'
 - !lcsh 'Philosophy, German'
 - !lcsh 'Ethics'
+- GITenberg
 title: Fundamental Principles of the Metaphysic of Morals
 url: http://www.gutenberg.org/ebooks/5682
